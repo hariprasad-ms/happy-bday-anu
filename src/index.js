@@ -24,7 +24,7 @@ function Root() {
         <div style={{ position: 'absolute', bottom: 40, right: 40, fontSize: '13px' }}>- 11:11 PM - 30/09/2024</div>
         <Logo style={{ position: 'absolute', bottom: 40, left: 40, width: 30 }} />
         <a style={{ position: 'absolute', top: 40, left: 40, fontSize: '13px' }} href="#" onClick={() => setLocation('/')}>
-          {params ? '< back' : 'Double tap to enter portal...'}
+          {params ? '< back' : 'When you see 3 portals, Double tap to enter...'}
         </a>
       </div>{' '}
     </>
